@@ -8,7 +8,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "codepush": "appcenter codepush release-react -a adam.gajzlerowicz/adamgajzlerowicz -d Production"
+    "codepush": "appcenter codepush release-react -a adam.gajzlerowicz/adamgajzlerowicz -d Production -t 1.0"
   },
   "dependencies": {
     "appcenter": "2.6.1",
@@ -18,7 +18,7 @@
     "react-native": "0.61.5",
     "react-native-code-push": "^6.0.0",
     "react-native-webview": "^8.0.1"
-  },
+ },
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/runtime": "^7.7.7",
