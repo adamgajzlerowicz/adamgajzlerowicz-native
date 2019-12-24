@@ -1,10 +1,11 @@
 import React from 'react';
 import {StyleSheet, View, Linking} from 'react-native';
 import {WebView} from 'react-native-webview';
+import codePush from 'react-native-code-push';
 
 const uri = 'http://hackerman-consulting.com';
 
-export default function App() {
+const App = () => {
   return (
     <View style={styles.container}>
       <WebView
@@ -23,10 +24,16 @@ export default function App() {
       />
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
 });
+
+const codePushOptions = {
+  frequency: codePush.CheckFrequency.ON_APP_START,
+};
+
+export default codePush(codePushOptions)(App);

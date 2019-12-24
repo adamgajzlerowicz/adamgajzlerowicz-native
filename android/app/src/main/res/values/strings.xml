@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">adamgajzlerowicz</string>
+    <string name="app_name">AdamGajzlerowicz</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">Nf9SIgEZ2OajUDKs2zF-G1Z47wKXwvCNg9AJY</string>
 </resources>
