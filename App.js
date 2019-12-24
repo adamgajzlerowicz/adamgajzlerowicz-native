@@ -37,4 +37,4 @@ const codePushOptions = {
   frequency: codePush.CheckFrequency.ON_APP_START,
 };
 
-export default codePush(codePushOptions)(App);
+export default (__DEV__ ? App : codePush(codePushOptions)(App));
