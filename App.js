@@ -3,8 +3,8 @@ import {StyleSheet, View, Linking} from 'react-native';
 import {WebView} from 'react-native-webview';
 import codePush from 'react-native-code-push';
 
-// const uri = 'http://hackerman-consulting.com';
-const uri = 'https://onet.pl';
+const uri = 'http://hackerman-consulting.com';
+// const uri = 'https://onet.pl';
 
 const App = () => {
   return (
